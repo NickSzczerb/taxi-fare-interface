@@ -12,7 +12,7 @@ const displayMap = (start, stop) => {
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
     center: centralCoordinates,
-    zoom: 50 // starting zoom
+    zoom: 10 // starting zoom
   });
 
   function getRoute(end) {
